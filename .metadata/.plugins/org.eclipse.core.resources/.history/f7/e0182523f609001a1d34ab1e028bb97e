@@ -1,0 +1,13 @@
+package day1;
+
+public class DataVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer a = 10;
+		Short b =10;
+		Boolean x = true;
+		System.out.println(a++);
+	}
+
+}

@@ -1,0 +1,34 @@
+package day1;
+
+public class DataVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a =17, b=15, c, age;
+		System.out.println("Before swap : " + "a = " +a + " and b = " + b);
+		c = a ;
+		a = b ; 
+		b = c ; 
+		
+		System.out.println("after swap : " + "a = " +a + " and b = " + b);
+		
+		String name = "Baba";
+		age = 35;
+		if(name=="Bamba" &&(age >=33) ){
+			System.out.println("Your name is Bamba");
+			
+		}else if(name!="Bamba" && (age>=33)){
+			System.out.println("You were not Bamba but you were eligible to vote");
+			
+		} else {
+			System.out.println("You were not Bamba");
+
+		}
+		
+		if(a%2 == 0){
+			System.out.println("a is an even number");
+			
+		}else System.out.println("a is an ODD number");
+	}
+
+}

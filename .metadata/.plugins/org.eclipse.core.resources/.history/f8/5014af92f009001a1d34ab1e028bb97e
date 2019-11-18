@@ -1,0 +1,13 @@
+
+public class DataVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer a = 10;
+		double b =10;
+		float c = 10;
+		boolean x = true;
+		System.out.println("This is my first program in Java" + ' ' + a.SIZE);
+	}
+
+}

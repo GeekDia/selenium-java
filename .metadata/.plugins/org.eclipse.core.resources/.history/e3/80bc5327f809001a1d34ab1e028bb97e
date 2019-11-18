@@ -1,0 +1,25 @@
+package day1;
+
+public class DataVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a =10, b=20, c, age;
+		System.out.println("Before swap : " + "a = " +a + " and b = " + b);
+		c = a ;
+		a = b ; 
+		b = c ; 
+		
+		System.out.println("after swap : " + "a = " +a + " and b = " + b);
+		
+		String name = "Bamba";
+		age = 33;
+		if(name=="Bamba" &&(age >=33) ){
+			System.out.println("Your name is Bamba");
+			
+		}else{
+			System.out.println("You were not Bamba");
+		}
+	}
+
+}
