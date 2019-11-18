@@ -9,7 +9,6 @@ public class DataVariables {
 		c = a ;
 		a = b ; 
 		b = c ; 
-	
 		
 		System.out.println("after swap : " + "a = " +a + " and b = " + b);
 		
@@ -59,39 +58,16 @@ public class DataVariables {
 		}
 		
 		int i = 0;
-		while(i<10){
+		while(i <=10){
 			
+			i+=2;
 			System.out.println(" i vaut: " + i);
-		
-			i++;
+			
 		}
 		
 		for(;b > 0; b--){
-			//System.out.println("b is still superior to 0  and has value : " + b);
-			if(b==10){
-				break;
-			}
-			System.out.println("b is still superior to 0  and has value : " + b);
+			System.out.println("b is still superior to 0 ");
 		}
-		for(int y = 1; y<=10; y++){
-			if(y==3 || y==5 || y==7){
-				continue;
-			}
-			System.out.println("y has value : " + y);
-		}
-		
-		int z, t, v;
-		z = -10 ; t=-5; v=-8;
-		
-		if (z>t && z>v){
-			System.out.println("z is greater than t and v");
-		}else if (t>z && t>v){
-			System.out.println("t is greater than z and v");
-		}
-		else if (v>z && t<v){
-			System.out.println("v is greater than z and t");
-		}
-		
 	}
 
 }

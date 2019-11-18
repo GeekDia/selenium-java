@@ -9,7 +9,7 @@ public class DataVariables {
 		c = a ;
 		a = b ; 
 		b = c ; 
-	
+		int array[] = new int[10];
 		
 		System.out.println("after swap : " + "a = " +a + " and b = " + b);
 		
@@ -62,7 +62,7 @@ public class DataVariables {
 		while(i<10){
 			
 			System.out.println(" i vaut: " + i);
-		
+			array[i] = i;
 			i++;
 		}
 		
@@ -92,6 +92,7 @@ public class DataVariables {
 			System.out.println("v is greater than z and t");
 		}
 		
+		System.out.println(array[2]);
 	}
 
 }

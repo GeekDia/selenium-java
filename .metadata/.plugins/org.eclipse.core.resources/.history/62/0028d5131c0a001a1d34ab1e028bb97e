@@ -1,0 +1,17 @@
+package day1;
+
+public class ArrayAndCollection {
+
+	public static void main(String[] args) {
+		
+		// Advanced for loop for array and collection
+		
+		int array [] = {10,23,45,56};
+		
+		for(int i:array){
+			System.out.println(i);
+		}
+
+	}
+
+}
